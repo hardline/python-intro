@@ -26,5 +26,6 @@ class Calculator(object):
         print(f'{calc.first_num} / {calc.second_num} = {calc.div()}')
         print('*' * 30)
 
+
 if __name__ == '__main__':
     Calculator.main()
