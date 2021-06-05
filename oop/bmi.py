@@ -32,7 +32,7 @@ class Bmi(object):
                 weight = int(input('몸무게'))
                 bmi = Bmi(height, weight)
                 print('*' * 30)
-                print(f'{bmi.height} + {bmi.weight} = {bmi.get_bmi()}')
+                print(f'키 : {bmi.height}, 몸무게 : {bmi.weight} -> {bmi.get_bmi()}')
                 print('*' * 30)
             else:
                 print('잘못된 메뉴입니다')
